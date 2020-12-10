@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "simon-drag-drop",
+  "appId": "io.jonnyramen.dragdrop",
+  "appName": "Ionic DragnDrop",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

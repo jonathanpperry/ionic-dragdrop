@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">simon-drag-drop</string>
-    <string name="title_activity_main">simon-drag-drop</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">Ionic DragnDrop</string>
+    <string name="title_activity_main">ionic-drag-drop</string>
+    <string name="package_name">io.jonnyramen.dragdrop</string>
+    <string name="custom_url_scheme">io.jonnyramen.dragdrop</string>
 </resources>
