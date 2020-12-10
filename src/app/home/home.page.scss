@@ -1,27 +1,22 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.fixed-box {
+  width: 100%;
+  background: #fff;
+  height: 160px;
+  z-index: 11;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.drop-area {
+  border: 2px dashed #ff00ff;
+  margin: 2px;
+  width: calc(50% - 4px);
+  align-items: center;
+  height: 150px;
+  display: inline-flex;
+  justify-content: center;
+  user-select: none;
+  background: #fff;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.item-group {
+  margin-top: 160px;
 }

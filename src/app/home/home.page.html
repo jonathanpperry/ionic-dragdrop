@@ -1,9 +1,22 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> Blank </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title> Drag and Drop </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div>Hello World</div>
+<ion-content [scrollY]="contentScrollActive">
+  <div slot="fixed" class="fixed-box">
+    <div class="drop-area" #dropzoneA>
+      <b>Team Blue:</b>
+      {{teamBlue | json}}
+    </div>
+    <div class="drop-area" #dropzoneB>
+      <b>Team Red:</b>
+      {{teamRed | json}}
+    </div>
+  </div>
+
+  <div class="item-group">
+    <ion-item *ngFor="let i of myArray"> Player {{i}} </ion-item>
+  </div>
 </ion-content>
