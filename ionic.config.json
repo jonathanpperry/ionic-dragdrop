@@ -1,0 +1,7 @@
+{
+  "name": "simon-drag-drop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
